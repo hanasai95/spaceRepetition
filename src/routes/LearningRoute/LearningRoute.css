@@ -1,0 +1,33 @@
+.guess_word_submit {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-size:20px;
+  font-weight:300;
+  color:white;
+  background-color:#E55934;
+  text-align:center;
+  transition: all 0.2s;
+  }
+
+  .guess_word_form{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .guess_word_form input{
+    border: 1px solid #ddd;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+
+  border-radius: 4px;
+  }
